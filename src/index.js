@@ -2,12 +2,12 @@ function generatePoem(event) {
   event.preventDefault();
 
   new Typewriter("#poem", {
-    strings: "La tombe dit à la rose",
+    strings: "The AI Poem Generator",
     autoStart: true,
-    delay: 5,
+    delay: 2,
     cursor: "",
   });
 }
 
-let poemFormElement = document.querySelector("#poem-generator");
-poemFormElement.addEventListener("submit", generatePoem);
+let poemForm = document.querySelector("#poem-generator");
+poemForm.addEventListener("submit", generatePoem);
