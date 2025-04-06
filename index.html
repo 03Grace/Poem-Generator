@@ -15,17 +15,21 @@
       </header>
 
       <main>
-        <form id="poem-generator">
-          <input
-            type="text"
-            placeholder="Enter the topic of the poem you want"
-            autofocus
-            required
-            autocomplete="off"
-            class="input"
-          />
-          <input type="submit" class="submit" />
-        </form>
+        <div id="form-container">
+          <form id="poem-generator">
+            <input
+              type="text"
+              placeholder="Enter the topic of the poem you would like to generate"
+              autofocus
+              required
+              autocomplete="off"
+              class="input"
+            />
+            <input type="submit" class="submit" />
+          </form>
+          <small class="hint"> Flowers, Rivers or Love</small>
+        </div>
+
         <div class="poem" id="poem"></div>
       </main>
 
